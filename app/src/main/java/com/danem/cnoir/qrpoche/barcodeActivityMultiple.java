@@ -81,6 +81,7 @@ public class barcodeActivityMultiple extends  baseActivity  implements BarcodeRe
 		}
 		catch(Exception e )
 		{
+			//test commit
 			Log.e("exception","openScanner=>"+e.getLocalizedMessage());
 			HashMap<String, String> v_Params = new HashMap<>();
 			v_Params.put("p_Fonction","barcodeActivityEA600.open");
